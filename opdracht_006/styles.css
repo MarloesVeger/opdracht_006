@@ -1,0 +1,124 @@
+.body {
+    background-image: url("background/wallpaper.test.jpeg");
+    font: 20px Arial, sans-serif;
+    background-color: palevioletred;
+    color:rgb(46, 46, 68);
+}
+
+.font-1 {
+font-family: fantasy ; 
+font-size:18px;
+}
+
+.font-2 {
+font-size:18px; 
+font-family:fantasy;
+}
+
+.font-3 {
+font-size: 30px; 
+}
+
+.border main {
+border: 5px solid rgb(1, 82, 64);
+background-color: rgb(139, 203, 243);
+margin:25px;
+padding:0px 20px;
+}
+    
+.border header {
+border: 5px solid rgb(1, 82, 64);
+background-color: rgb(139, 203, 243);
+margin:25px;
+padding:0px 20px;
+}
+    
+.border nav {
+border: 5px solid rgb(1, 82, 64);
+background-color: rgb(139, 203, 243);
+font: 18px;
+margin:25px;
+padding:0px 20px;
+}
+
+.list li {
+display: inline-block;
+}
+
+.list li a {
+display:block;
+padding: 0px 10px;
+color: rgb(1, 82, 64);
+}
+
+.list li a:hover {
+background:rgb(100, 102, 245);
+}
+
+
+.text {
+color: rgb(92, 2, 52);
+}
+
+#p1 {
+background-color:hsla(335, 50%, 58%, 0.3);
+}
+#p2 {
+background-color: hsla(207, 77%, 58%, 0.3);
+}
+#p3 {
+background-color: hsla(147, 77%, 58%, 0.3);
+}
+
+/*media screen Mobile*/
+@media screen and (max-width: 768px) {
+    header {
+    font-size: 70%;
+    line-height: 1.5;
+    }
+}
+@media screen and (max-width: 768px) {
+    main {
+    font-size: 70%;
+    line-height: 1.5;
+    }
+}
+@media screen and (max-width: 768px) {
+    nav {
+    font-size: 70%;
+    line-height:1.5;
+    }
+}
+@media screen and (max-width: 768px) {
+.font-2 {
+font-size: 70%
+}
+}
+@media screen and (max-width: 768px) {
+.border main{
+padding:5px}
+} 
+@media screen and (max-width: 768px) {
+.border nav {
+padding:0px}
+}
+@media screen and (max-width: 768px) {
+.border header {
+padding:5px}
+}
+@media screen and (max-width: 768px) {
+li {
+width:100%}
+}
+/*media screen Desktop*/
+@media screen and (min-width: 1024px) {
+.body {
+background-image: none;
+background-color:lightskyblue;}
+}
+@media screen and (min-width: 1024px) {
+    .body {
+        color:maroon;
+    font-size:50%;
+line-height:2.5;}
+    }
